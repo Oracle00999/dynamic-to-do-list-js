@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
       newListItem.textContent = taskText; // sets the textcontent of the li element
       const removeButton = document.createElement("button"); // creates a button
       removeButton.textContent = "Remove"; // sets the textcontent of the button
-      removeButton.className = "remove-btn"; // sets a class property for the button
+      removeButton.classList.add("remove-btn"); // sets a class property for the button
 
       //   added an onclick event on the button
       removeButton.onclick = function () {
